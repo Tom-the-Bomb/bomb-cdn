@@ -1,0 +1,12 @@
+[package]
+name = "bomb-cdn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+dotenv = "0.15.0"
+tokio = { version = "1.19.2", features = ["full"] }
+serde = {version = "1.0.137", features = ["derive"] }
+tower-http = { version = "0.3.4", features = ["full"] }
+axum = {version = "0.5.9", features = ["headers", "multipart"] }
