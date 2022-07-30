@@ -10,8 +10,11 @@ use std::{
 };
 
 use tower_http::services::{ServeDir, ServeFile};
-use rand::distributions::Alphanumeric;
-use rand::{thread_rng, Rng};
+use rand::{
+    distributions::Alphanumeric,
+    thread_rng,
+    Rng,
+};
 
 use axum::{
     headers::{authorization::Bearer, Authorization},
