@@ -224,7 +224,7 @@ async fn main() {
                 ServeDir::new("./uploads")
                     .fallback(
                         ServeDir::new("./static/")
-                        .fallback(ServeFile::new("./static/notfound.html"))
+                        .not_found_service(ServeFile::new("./static/notfound.html"))
                     )
             )
             .handle_error(|err| async move {
