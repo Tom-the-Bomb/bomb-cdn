@@ -104,7 +104,7 @@ async fn post_upload(
 
                 let path_string = path.display()
                     .to_string()
-                    .trim_start_matches(".")
+                    .trim_start_matches("./uploads")
                     .to_string();
                 (
                     StatusCode::OK,
