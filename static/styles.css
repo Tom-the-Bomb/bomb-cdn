@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+
 body {
     background-color: rgb(50, 50, 50)
 }
+
 
 main {
     display: flex;
@@ -13,19 +15,23 @@ main {
     justify-content: center;
 }
 
+
 h1 {
     font-family: 'Mochiy Pop One', 'sans-serif';
     color: rgb(236, 207, 207);
 }
+
 
 p {
     font-family: 'Nunito', 'sans-serif';
     color: rgb(243, 221, 221)
 }
 
+
 code {
     color: rgb(219, 138, 138);
 }
+
 
 .header {
     font-size: 1.3em;
