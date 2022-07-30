@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-color: rgb(50, 50, 50)
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Mochiy Pop One', 'sans-serif';
+    color: rgb(236, 207, 207);
+}
+
+p {
+    font-family: 'Nunito', 'sans-serif';
+    color: rgb(243, 221, 221)
+}
+
+code {
+    color: rgb(219, 138, 138);
+}
+
+.header {
+    font-size: 1.3em;
+}
+
+
+#box {
+    text-align: left;
+    font-family: 'Source Code Pro', 'monospace';
+    font-size: 15px;
+    align-self: center;
+    border-radius: 0.5em;
+    background-color: rgb(30, 30, 30);
+    width: 50%;
+    height: 50%;
+    color: white;
+    padding: 1em;
+}
